@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Simple Quiz</h1>
+		<form id="quiz-form">
+			<div class="question">
+				<h2>Which of the following is not a data type in JavaScript ?</h2>
+				<label><input type="radio" name="q1" value="a">a) Library</label><br>
+				<label><input type="radio" name="q1" value="b">b) String</label><br>
+				<label><input type="radio" name="q1" value="c">c) Object</label><br>
+				<label><input type="radio" name="q1" value="d">d) Undefined</label><br>
+			</div>
+			<div class="question">
+				<h2>If you consider a Webpage as a human body (bones, pyscal appearance, functionality), which one would refer to pysical appearance?</h2>
+				<label><input type="radio" name="q2" value="a">a) HTML</label><br>
+				<label><input type="radio" name="q2" value="b">b) CSS</label><br>
+				<label><input type="radio" name="q2" value="c">c) Java</label><br>
+				<label><input type="radio" name="q2" value="d">d) JavaScript</label><br>
+			</div>
+			<div class="question">
+				<h2>In STAR (Situation Task Action Result) method, which of the following should be given the most weight by Storyteller? </h2>
+				<label><input type="radio" name="q3" value="a">a) Star</label><br>
+				<label><input type="radio" name="q3" value="b">b) Task</label><br>
+				<label><input type="radio" name="q3" value="c">c) Action</label><br>
+				<label><input type="radio" name="q3" value="d">d) Result</label><br>
+			</div>
+			<div class="question">
+				<h2>1.GitHub is a Version Control System 
+          <br>
+            2.Algorithm is a programming language
+            <br>
+          Which of the above propositions are correct?
+          </h2>
+				<label><input type="radio" name="q4" value="a">a) 2</label><br>
+				<label><input type="radio" name="q4" value="b">b) both</label><br>
+				<label><input type="radio" name="q4" value="c">c) none</label><br>
+				<label><input type="radio" name="q4" value="d">d) 1</label><br>
+			</div>
+			<div class="question">
+				<h2>Which tag do you use to create a numbered list?</h2>
+				<label><input type="radio" name="q5" value="a">a) &lt;ul&gt; 
+      </label><br>
+				<label><input type="radio" name="q5" value="b">b)  &lt;list&gt;</label><br>
+				<label><input type="radio" name="q5" value="c">c)  &lt;ol&gt;</label><br>
+				<label><input type="radio" name="q5" value="d">d)  &lt;dl&gt;</label><br>
+			</div>
+			<button type="submit" id="submit-btn">Submit Answers</button>
+		</form>
+		<div id="results"></div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
